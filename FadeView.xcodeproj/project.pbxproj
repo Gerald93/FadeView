@@ -14,6 +14,7 @@
 		CFB630371FD2A29600C3481B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CFB630351FD2A29600C3481B /* LaunchScreen.storyboard */; };
 		CFB630421FD2A29600C3481B /* FadeViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFB630411FD2A29600C3481B /* FadeViewTests.swift */; };
 		CFB6304D1FD2A29600C3481B /* FadeViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFB6304C1FD2A29600C3481B /* FadeViewUITests.swift */; };
+		CFB6305C1FD2A2CA00C3481B /* FadeExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFB6305B1FD2A2CA00C3481B /* FadeExtension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		CFB630481FD2A29600C3481B /* FadeViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FadeViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CFB6304C1FD2A29600C3481B /* FadeViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FadeViewUITests.swift; sourceTree = "<group>"; };
 		CFB6304E1FD2A29600C3481B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CFB6305B1FD2A2CA00C3481B /* FadeExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FadeExtension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +100,7 @@
 			isa = PBXGroup;
 			children = (
 				CFB6302C1FD2A29500C3481B /* AppDelegate.swift */,
+				CFB6305A1FD2A2A500C3481B /* Extensions */,
 				CFB6302E1FD2A29500C3481B /* ViewController.swift */,
 				CFB630301FD2A29500C3481B /* Main.storyboard */,
 				CFB630331FD2A29600C3481B /* Assets.xcassets */,
@@ -123,6 +126,14 @@
 				CFB6304E1FD2A29600C3481B /* Info.plist */,
 			);
 			path = FadeViewUITests;
+			sourceTree = "<group>";
+		};
+		CFB6305A1FD2A2A500C3481B /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				CFB6305B1FD2A2CA00C3481B /* FadeExtension.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,6 +270,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CFB6305C1FD2A2CA00C3481B /* FadeExtension.swift in Sources */,
 				CFB6302F1FD2A29500C3481B /* ViewController.swift in Sources */,
 				CFB6302D1FD2A29500C3481B /* AppDelegate.swift in Sources */,
 			);
